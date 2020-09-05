@@ -14,7 +14,7 @@ import {Card, CardContent, Divider, CardActions, Link, Container, Paper, Avatar,
             <Paper variant="outlined" className="paper">
             <Card>
                 <CardContent>
-                    <span>{car.Name}</span>
+                    <span className="carName">{car.Name}</span>
                     <ul className="carDetails">
                         <li>Id:{car.id}</li>
                         <li>Name: {car["Name"]}</li>    
